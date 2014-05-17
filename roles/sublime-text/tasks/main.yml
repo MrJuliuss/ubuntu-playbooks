@@ -1,0 +1,6 @@
+---
+- name: Add repos
+  apt_repository: repo='ppa:webupd8team/sublime-text-3' state=present
+
+- name: Install sublime text 3
+  apt: pkg=sublime-text-installer

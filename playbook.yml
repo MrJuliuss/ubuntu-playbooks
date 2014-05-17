@@ -1,0 +1,9 @@
+---
+  - hosts: all
+    sudo: true
+    user: root
+    roles:
+      - base
+      - sublime-text
+      - birdie
+      - git

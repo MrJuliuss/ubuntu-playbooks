@@ -7,3 +7,6 @@
       - sublime-text
       - birdie
       - git
+      - apache
+      - php-apache
+      - composer

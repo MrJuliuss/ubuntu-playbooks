@@ -1,0 +1,7 @@
+---
+- name: Install apache2
+  apt: pkg=apache2 state=latest
+
+- name: Enable rewrite mod
+  action: command a2enmod rewrite
+  notify: Restart apache2

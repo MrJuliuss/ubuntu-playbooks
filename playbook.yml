@@ -10,3 +10,6 @@
       - apache
       - php-apache
       - composer
+      - mysql
+      - lilyterm
+      - zsh

@@ -1,0 +1,13 @@
+---
+- name: Install zsh
+  apt: pkg={{ item }} state=latest
+  with_items:
+    - zsh
+
+- name: Zsh facts
+  shell: 'echo $SHELL'
+  register: default_shell
+
+- name: Set the default shell to Zsh
+  shell: chsh -s /bin/zsh
+  when: default_shell.stdout.find('/bin/zsh') == -1

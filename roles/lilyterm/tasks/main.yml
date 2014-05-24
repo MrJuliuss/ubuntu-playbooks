@@ -1,0 +1,6 @@
+---
+- name: Add lilyterm repo
+  apt_repository: repo='deb http://debian.luna.com.tw/wheezy ./'
+
+- name: Install lilyterm
+  apt: pkg=lilyterm state=latest update_cache=yes force=yes

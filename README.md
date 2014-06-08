@@ -1,22 +1,17 @@
 Ubuntu playbooks
 ================
 
-## WIP 
-
 Ansible playbooks for ubuntu (desktop)
 
 ### Roles
 
-* apache
-* birdie (twitter client)
-* composer
-* git
-* lilyterm
-* mysql
-* nodejs / npm
-* php for apache
-* sublime text 3
-* zsh
-* smuxi (irc client)
-
-### Todo 
+* [apache](roles/apache)
+* [composer](roles/composer)
+* [git](roles/git)
+* [lilyterm](roles/lilyterm)
+* [mysql](roles/mysql)
+* [nodejs / npm](roles/node)
+* [php for apache](roles/php-apache)
+* [sublime text 3](roles/sublime-text)
+* [zsh](roles/zsh)
+* [zeal documentations](roles/zeal)

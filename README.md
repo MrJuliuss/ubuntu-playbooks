@@ -15,3 +15,8 @@ Ansible playbooks for ubuntu (desktop)
 * [sublime text 3](roles/sublime-text)
 * [zsh](roles/zsh)
 * [zeal documentations](roles/zeal)
+
+
+### Launch Ansible in local
+
+  ansible-playbook -i hosts playbook.yml --connection=local --ask-sudo-pass

@@ -19,4 +19,4 @@ Ansible playbooks for ubuntu (desktop)
 
 ### Launch Ansible in local
 
-  ansible-playbook -i hosts playbook.yml --connection=local --ask-sudo-pass
+    ansible-playbook -i hosts playbook.yml --connection=local --ask-sudo-pass

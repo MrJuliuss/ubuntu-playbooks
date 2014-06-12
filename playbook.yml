@@ -5,7 +5,6 @@
     roles:
       - base
       - sublime-text
-      - birdie
       - git
       - apache
       - php-apache

@@ -1,6 +1,0 @@
----
-- name: Add repos
-  apt_repository: repo='ppa:birdie-team/stable' state=present
-
-- name: Install sublime text 3
-  apt: pkg=birdie

@@ -16,3 +16,4 @@
     - rsync
     - python-pip
     - smuxi
+    - httpie

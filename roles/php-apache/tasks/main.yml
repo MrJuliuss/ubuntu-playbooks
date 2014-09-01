@@ -1,3 +1,6 @@
+- name: Add ppa
+  apt_repository: repo='ppa:ondrej/php5-5.6'
+
 - name: Install php
   apt: pkg={{ item }} state=latest
   with_items :

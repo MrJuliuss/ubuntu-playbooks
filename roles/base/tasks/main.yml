@@ -18,3 +18,5 @@
     - smuxi
     - httpie
     - wakeonlan
+    - vlc
+    - browser-plugin-vlc

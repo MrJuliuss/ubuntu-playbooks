@@ -6,11 +6,11 @@
       - base
       - sublime-text
       - git
-      - apache
-      - php-apache
+      - php-fpm
       - composer
       - mysql
       - lilyterm
       - zsh
       - node
+      - nginx
       - zeal

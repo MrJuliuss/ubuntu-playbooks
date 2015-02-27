@@ -20,3 +20,6 @@
     - wakeonlan
     - vlc
     - browser-plugin-vlc
+    - whois
+    - ncdu
+    - mtr
